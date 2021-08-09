@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pngadgil-website-task-6</title>
+
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"> -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+ 
+ 
+  <script type="text/javascript" 
+  src="//code.jquery.com/jquery-1.9.1.js">
+</script>
+<link rel="stylesheet" 
+type="text/css" 
+href="/css/result-light.css">
+<script type="text/javascript" 
+  src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+</script>
+<link rel="stylesheet" 
+type="text/css" 
+href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<link rel="stylesheet" 
+type="text/css" 
+href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!--<link rel="icon" href="img/favicon.png" />
+         Place favicon.ico in the root directory -->
+		 <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+		<!-- google-font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet"> 
+		<!-- all css here -->
+		<!-- bootstrap v3.3.6 css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- animate css -->
+        <link rel="stylesheet" href="css/animate.css">
+		<!-- jquery-ui.min css -->
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+		<!-- meanmenu css -->
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+		<!-- nivo-slider css -->
+        <link rel="stylesheet" href="css/nivo-slider.css">		
+		<!-- owl.carousel css -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+		<!--linearicons css -->
+        <link rel="stylesheet" href="css/linearicons-icon-font.min.css">
+		<!-- font-awesome css -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- style css -->
+		<link rel="stylesheet" href="style.css">
+		<!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css" />
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ <script>
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:1,
+        itemsDesktop:[1000,2],
+        itemsDesktopSmall:[979,1],
+        itemsTablet:[768,1],
+        pagination:false,
+        navigation:true,
+        slideSpeed:1000,
+        singleItem:true,
+        transitionStyle:"goDown",
+        navigationText:["",""],
+        autoPlay:false
+    });
+});
+	</script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+       <!-- navbar section start -->
+		<header>
+			<div class="header-top-area ptb-10 hidden-xs header-top-area-4">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-4 col-sm-5">
+							<div class="header-top-right header-top-left-4">
+								<!-- <p>FREE SHIPPING ON ORDERS OVER Rs499</p> -->
+							</div>
+						</div>					
+						<div class="col-lg-9 col-md-8 col-sm-7 header-top-right-4">
+						
+							<div class="header-top-left">
+								<ul>
+                                <li class="click_menu" style="color: #6b1aa6;"><a href="#">Gold Rate <i class="fa fa-angle-down"></i></a>
+										<ul class="click_menu_show">
+                                            <div class="gold_details">
+                                                <h5>Applicable for online purchase only</h5>
+                                                <table border="0">
+                                                <tbody><tr>
+                                                <td>24 kt(995)</td><td>Rs. 4995</td>
+                                                </tr>
+                                                <tr>
+                                                <td>22 kt(916)</td><td>Rs. 4595</td>
+                                                </tr>
+                                                <tr>
+                                                <td>18 kt(750)</td><td>Rs. 3796</td>
+                                                </tr>
+                                                <tr>
+                                                <td>Silver (999)</td><td>Rs. 68.50</td>
+                                                </tr>
+                                                </tbody></table>
+                                                <p class="last_date">Updated on : <span>22/07/2021 12:00 AM</span></p>
+                                                
+                                                </div>
+											<!--  -->
+										</ul>
+									</li>
+									<li><a href="customer-account.html">Franchise Enquiry</a></li>
+                                    <li><a href="customer-account.html">Contact Us</a></li>
+                                    <li><a href="customer-account.html">Sign in</a></li>
+                                    <li><a href="customer-account.html">New User</a></li>
+								</ul>
+                                
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom-area home-page-2 ptb-10">
+				<div class="container">
+					<div class="row">
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<div class="logo logo2">
+								<a href="index.html"><img src="images/logo.png" alt="" /></a>
+							</div>					
+						</div>
+
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<div class="menu-search-box scnd-fix">
+								<form action="#">
+									<input type="text" placeholder="Search here..."/>
+									<button><span class="lnr lnr-magnifier"></span></button>
+								</form>
+							</div>
+						</div>
+						
+						<div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
+							<div class="header-bottom-right-4-inner">
+								<a href="#"><span class="lnr lnr-heart"></span></a>
+							</div>					
+							<div class="header-bottom-right header-bottom-right-4">
+								<div class="shop-cart shop-cart-4">									
+									<a href="#"><span class="lnr lnr-cart"></span></a>
+								</div>
+								<div class="shop-cart-hover shop-cart-hover-4 fix">
+									<ul>
+										<li>
+											<div class="cart-img">
+												<a href="#"><img src="img/cart/1.jpg" alt="" /></a>
+											</div>
+											<div class="cart-content">
+												<h4><a href="#">1 x Faded...</a></h4>
+												<span><a href="#">S, Orange</a></span>
+												<span class="cart-price">Rs 16.84</span>
+											</div>
+											<div class="cart-del">
+												<i class="fa fa-times-circle"></i>
+											</div>											
+										</li>
+										<li>
+											<div class="cart-img">
+												<a href="#"><img src="img/cart/1.jpg" alt="" /></a>
+											</div>
+											<div class="cart-content">
+												<h4><a href="#">1 x Faded...</a></h4>
+												<span><a href="#">S, Orange</a></span>
+												<span class="cart-price">Rs 16.84</span>
+											</div>
+											<div class="cart-del">
+												<i class="fa fa-times-circle"></i>
+											</div>											
+										</li>
+										<li class="total-price"><span> Total Rs 48.04 </span></li>
+										<li class="checkout-bg">
+											<a href="checkout.html">checkout <i class="fa fa-angle-right"></i></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header-end -->
+		<!-- mainmenu-area-start -->
+		<div class="mainmenu-area home-page-2 mainmenu-area-4" id="main_h">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="mainmenu hidden-xs">
+							<nav>
+								<ul>
+									<li><a href="shop.html">Jewellery</a>
+										<div class="megamenu">
+											<span>
+												<a href="#" class="megatitle">Rings</a>
+												<a href="#">Daily Wear</a>
+                                                <a href="images/1.png"> Bands </a>
+												<a href="#">Engagement</a>
+												<a href="#">Hearts</a>
+												<a href="#">Floral</a>
+												<a href="#">Occasional Wear</a>
+												
+											</span>
+											
+											<span>
+												<a href="#" class="megatitle">Earrings</a>
+												<a href="#">Studs</a>
+												<a href="#">Drops & Danglers</a>
+												<a href="#">Hoops & Huggies</a>
+												<a href="#">Ear Cuffs & Jackets</a>
+												<a href="#">Zodiac</a>
+												<a href="#">Kids</a>
+											</span>
+											<span>
+												<a href="#" class="megatitle">Mangalsutras</a>
+												<a href="#">Daily Wear</a>
+												<a href="#">Tanmaniya</a>
+												<a href="#">Fusion</a>
+												<a href="#">Occasional Wear</a>
+												<a href="#">Watimani</a>
+												<a href="#">South Exclusif</a>
+											</span>
+											<span>
+												<a href="#" class="megatitle">Pendants & Sets</a>
+												<a href="#">Daily Wear</a>
+												<a href="#">Pendant Sets</a>
+												<a href="#">Fusion</a>
+												<a href="#">Zodiac</a>
+												<a href="#">initials</a>
+												<a href="#">Geometric</a>
+											</span>
+											<span>
+												<a href="#" class="megatitle">Bracelets & Bangles</a>
+												<a href="#">Daily Wear</a>
+												<a href="#">Bangles</a>
+												<a href="#">Fusion</a>
+												<a href="#">Floral</a>
+												<a href="#">Occasional Wear</a>
+												
+											</span>
+											
+										</div>
+									</li>
+									<li><a href="shop.html">Gold</a>
+										<div class="megamenu">
+											<span >
+											<img src="images/g1.png" alt="">	<a href="#" class="megatitle">Rings</a>
+											<img src="images/g7.png" alt="">	<a href="#" class="megatitle">Necklace & Sets</a>
+												
+											</span>
+											<span>
+                                                <img src="images/g2.png" alt="">	<a href="#" class="megatitle">Earrings</a>
+												<img src="images/g6.png" alt="">	<a href="#" class="megatitle">Chains</a>
+												
+											</span>
+											<span>
+                                                <img src="images/g3.png" alt="">	<a href="#" class="megatitle">Bracelets & Bangles</a>
+												<img src="images/g8.png" alt="">	<a href="#" class="megatitle">Gold Nath</a>
+											</span>
+											<span>
+                                                <img src="images/g4.png" alt="">	<a href="#" class="megatitle">Pendants & Sets</a>
+												</span>
+												<span>
+													<img src="images/g5.png" alt="">	<a href="#" class="megatitle">Mangalsutras</a>
+													</span>
+													
+												
+										</div>
+									</li>
+									<li><a href="shop.html">Diamond</a>
+										<div class="megamenu megamenu2 living-megamenu">
+											<span>
+												<img src="images/d1.png" alt=""><a href="#" class="megatitle">Earrings</a>
+												<img src="images/d5.png" alt=""><a href="#" class="megatitle">Rings</a>
+												
+												
+											</span>
+											<span>
+												<img src="images/d2.png" alt=""><a href="#" class="megatitle">Pendants & Sets</a>
+												<img src="images/d6.png" alt=""><a href="#" class="megatitle">Necklace & Sets</a>											
+											</span>
+											<span>
+												<img src="images/d3.png" alt=""><a href="#" class="megatitle">Bracelets & Bangles</a>
+												<img src="images/d7.png" alt=""><a href="#" class="megatitle">Nosepins</a>										
+											</span>
+											<span>
+												<img src="images/d4.png" alt=""><a href="#" class="megatitle">Mangalsutras</a>
+																							
+											</span>
+											
+										</div>									
+									</li>
+									<li><a href="shop.html">Platinum</a>
+										<div class="megamenu dining-megamenu">
+											<span>
+												<img src="images/p1.png" alt=""><a href="#" class="megatitle">Platinum Bracelet</a>
+												
+											</span>
+											<span>
+												<img src="images/p2.png" alt=""><a href="#" class="megatitle">Platinum chairs</a>
+											</span>
+											<span>
+												<img src="images/p3.png" alt=""><a href="#" class="megatitle">Platinum Ring</a>
+											</span>
+										</div>									
+									</li>
+									<li><a href="shop.html">Coins</a>
+										<div class="megamenu megamenu2 living-megamenu">
+											<span>
+												<img src="images/c1.png" alt=""><a href="#" class="megatitle">Gold Coins(995)</a>
+												<a href="">1gms</a>
+												<a href="">2gms</a>
+												<a href="">3gms</a>
+												<a href="">5gms</a>
+												<a href="">10gms</a>
+												
+											</span>
+											<span>
+												<img src="images/c2.png" alt=""><a href="#" class="megatitle">gold vedhani(985)</a>
+												<a href="">0.5gms</a>
+												<a href="">1gms</a>
+												<a href="">2gms</a>
+												<a href="">3gms</a>
+												<a href="">5gms</a>
+												<a href="">10gms</a>
+												
+											</span>
+											<span>
+												<img src="images/c3.png" alt=""><a href="#" class="megatitle">gold coin Pendant</a>					
+												<a href="">1gms</a>
+												<a href="">2gms</a>
+												<a href="">3gms</a>
+												
+												<a href="">10gms</a>
+												
+											</span>
+											<span>
+												<img src="images/c4.png" alt=""><a href="#" class="megatitle">silver</a>
+												<a href="">5gms</a>
+												<a href="">10gms</a>
+												<a href="">15gms</a>
+												<a href="">20gms</a>
+												<a href="">25gms</a>
+												<a href="">50gms</a>
+												<a href="">100gms</a>
+																							
+											</span>
+											
+										</div>									
+									</li>
+									<li><a href="shop.html">silver & non silver</a>
+										
+															
+									</li>
+									<li><a href="shop.html">Collections</a>
+										<div class="megamenu dining-megamenu">
+											<span>
+												
+												<a href="#">Be my valentine</a>
+												<a href="#">wedding</a>
+												<a href="#">duet</a>
+												<a href="#">lava</a>
+												<a href="#">Bidar inspired jewels</a>
+												<a href="#">ishtam</a>
+												<a href="#">navratna</a>
+											</span>
+											<span>
+												<a href="#">diviini </a>
+												<a href="#">amore</a>
+												<a href="#">lris</a>
+												<a href="#">infinity</a>
+												<a href="#">linea</a>
+												<a href="#">amoli</a>
+												<a href="#">fab5</a>
+											</span>
+											<span>
+												<a href="#">kids</a>
+												<a href="#">matte</a>
+												<a href="#">ornella</a>
+												<a href="#">mist</a>
+												<a href="#">freya</a>
+											</span>
+										</div>									
+									</li>
+
+
+									<li><a href="#">gifts</a>
+										<ul>
+											<li><img src="images/gf.png" alt=""><a href="wishlist.html">Gift Card</a></li>
+											
+										</ul>									
+									</li>
+
+
+
+
+									<li><a href="contact.html">Shop Now
+                                        
+                                    </a></li>
+									
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mobile-menu-area hidden-sm hidden-md hidden-lg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mobile-menu">
+							<nav id="mobile-menu">
+								<ul>
+									
+									<li><a href="shop.html">Jewellery</a>
+										<ul>
+											<li><a href="#">Rings</a>
+												<ul>
+													<li><a href="#">daily Wear</a></li>
+													<li><a href="#">Bands</a></li>
+													<li><a href="#">Engagement</a></li>
+													<li><a href="#">Heart</a></li>
+													<li><a href="#">Floral</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Earrings</a>
+												<ul>
+													<li><a href="#">Studs</a></li>
+													<li><a href="#">Drop & dragger</a></li>
+													<li><a href="#">Zodiac</a></li>
+													<li><a href="#">kids</a></li>
+													<li><a href="#">Hoops & Huggies</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Mangalsutras</a>
+												<ul>
+													<li><a href="#">daily Wear</a></li>
+													<li><a href="#">Tanmaniya</a></li>
+													<li><a href="#">fusion</a></li>
+													<li><a href="#">occasional wear</a></li>
+													<li><a href="#">watimani</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li class="active"><a href="index.html">gold</a>
+										<ul>
+											<li><a href="index.html">Rings</a></li>
+											<li><a href="index-2.html">Earrings</a></li>
+											<li><a href="index-3.html">Bracelets & Bangles</a></li>
+											<li><a href="index-4.html">Pendants & Sets</a></li>
+										</ul>
+									</li>
+									<li class="active"><a href="index.html">diamond</a>
+										<ul>
+											<li><a href="index.html">Necklace & Sets</a></li>
+											<li><a href="index.html">Nosepins</a></li>
+											<li><a href="index.html">Chains</a></li>
+											<li><a href="index.html">Mangalsutras</a></li>
+											<li><a href="index.html">Rings</a></li>
+											<li><a href="index-2.html">Earrings</a></li>
+											<li><a href="index-3.html">Bracelets & Bangles</a></li>
+											<li><a href="index-4.html">Pendants & Sets</a></li>
+										</ul>
+									</li>
+									<li class="active"><a href="index.html">platinum</a>
+										<ul>
+											<li><a href="index.html">platinum Bracelets</a></li>
+											<li><a href="index.html">platinum Chains</a></li>
+											<li><a href="index.html">Chains</a></li>
+											
+											<li><a href="index.html">platinum Rings</a></li>
+											
+										</ul>
+									</li>
+									<li><a href="shop.html">coins</a>
+										<ul>
+											<li><a href="#">gold coins(995)</a>
+												<ul>
+													<li><a href="#">1gms</a></li>
+													<li><a href="#">2gms</a></li>
+													<li><a href="#">3gms</a></li>
+													<li><a href="#">5gms</a></li>
+													<li><a href="#">10gms</a></li>
+												</ul>
+											</li>
+											<li><a href="#">gold vedhani(985)</a>
+												<ul>
+													<li><a href="#">0.5gms</a></li>
+													<li><a href="#">1gms</a></li>
+													<li><a href="#">2gms</a></li>
+													<li><a href="#">3gms</a></li>
+													<li><a href="#">5gms</a></li>
+													<li><a href="#">10gms</a></li>
+												</ul>
+											</li>
+											<li><a href="#">gold coin Pendant</a>
+												<ul>
+													<li><a href="#">1gms</a></li>
+													<li><a href="#">2gms</a></li>
+													<li><a href="#">3gms</a></li>
+													
+													<li><a href="#">10gms</a></li>
+												</ul>
+											</li>
+											<li><a href="#">silver</a>
+												<ul>
+													<li><a href="#">5gms</a></li>
+													<li><a href="#">10gms</a></li>
+													<li><a href="#">15gms</a></li>
+													
+													<li><a href="#">20gms</a></li>
+													<li><a href="#">25gms</a></li>
+													<li><a href="#">50gms</a></li>
+													<li><a href="#">100gms</a></li>
+													
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li><a href="contact.html">silver & non silver</a></li>
+									<li class="active"><a href="index.html">collections</a>
+										<ul>
+											<li><a href="index.html">platinum Bracelets</a></li>
+											<li><a href="index.html">platinum Chains</a></li>
+											<li><a href="index.html">Chains</a></li>
+											
+											<li><a href="index.html">platinum Rings</a></li>
+											
+										</ul>
+									</li>
+									<li class="active"><a href="index.html">gifts</a>
+										<ul>
+											<li><a href="index.html">platinum Bracelets</a></li>
+											<li><a href="index.html">platinum Chains</a></li>
+											<li><a href="index.html">Chains</a></li>
+											
+											<li><a href="index.html">platinum Rings</a></li>
+											
+										</ul>
+									</li>
+									<li><a href="contact.html">ship now</a></li>
+									
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- end of navbar section -->
+<!-- banner section -->
+        <img src="images/banner.png" alt="">
+		<!-- end of banner section -->
+
+<!-- slider start -->
+		<div class="tcb-product-slider">
+
+			<h2>BESTSELLERS</h2>			
+			<div class="container">
+				
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<div class="row">
+								<div class="col-xs-6 col-sm-3">
+									<div class="tcb-product-item">
+										<div class="tcb-product-photo">
+											
+											<a href="#"><img src="images/s1.png" class="img-responsive" alt="a" /></a>
+											
+						
+										</div>
+										<div class="tcb-product-info">
+
+											<div class="tcb-product-title">
+												<h4><a href="#">Mayapple Floral Diamond Earrings by PNG Jewellers </a></h4></div>
+											<!-- <div class="tcb-product-rating">
+												<i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i>
+												<a href="#">(4,585 ratings)</a>
+											</div> -->
+											<div class="tcb-hline"></div>
+											<div class="tcb-product-price">
+												&#x20B9;  15940. (17% off)
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-3">
+									<div class="tcb-product-item">
+										<div class="tcb-product-photo">
+											<a href="#"><img src="images/nn1.png" /></a>
+										</div>
+										<div class="tcb-product-info">
+											<div class="tcb-product-title">
+												<h4><a href="#">Maharashtrian Banu Moti Nath By PNG Jewellers</a></h4></div>
+											<!-- <div class="tcb-product-rating">
+												<i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i>
+												<a href="#">(245 ratings)</a>
+											</div> -->
+											<div class="tcb-hline"></div>
+											<div class="tcb-product-price">
+												&#x20B9;  15775 (21% off)
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-3">
+									<div class="tcb-product-item">
+										<div class="tcb-product-photo">
+											<a href="#"><img src="images/bb1.png" class="img-responsive" alt="a" /></a>
+										</div>
+										<div class="tcb-product-info">
+											<div class="tcb-product-title">
+												<h4><a href="#">Nimesha Navratna Gold Bracelet by PNG Jewellers</a></h4></div>
+											<!-- <div class="tcb-product-rating">
+												<i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i>
+												<a href="#">(345 ratings)</a>
+											</div> -->
+											<div class="tcb-hline"></div>
+											<div class="tcb-product-price">
+												&#x20B9; 20735 (33% off)
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-3">
+									<div class="tcb-product-item">
+										<div class="tcb-product-photo">
+											<a href="#"><img src="images/pp1.png" class="img-responsive" alt="a" /></a>
+										</div>
+										<div class="tcb-product-info">
+											<div class="tcb-product-title">
+												<h4><a href="#">Posy Diamond Studded Huggie</a></h4></div>
+											<!-- <div class="tcb-product-rating">
+												<i class="active glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i>
+												<a href="#">(45 ratings)</a>
+											</div> -->
+											<div class="tcb-hline"></div>
+											<div class="tcb-product-price">
+												&#x20B9; 12350 (37% off)
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="row">
+								<div class="col-xs-6 col-sm-3">
+									<div class="tcb-product-item">
+										<div class="tcb-product-photo">
+											<a href="#"><img src="images/oo1.png" class="img-responsive" alt="a" /></a>
+										</div>
+										<div class="tcb-product-info">
+											<div class="tcb-product-title">
+												<h4><a href="#">Charvi Pure Gold Bangle </a></h4></div>
+											<!-- <div class="tcb-product-rating">
+												<i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i>
+												<a href="#">(2,125 ratings)</a>
+											</div> -->
+											<div class="tcb-hline"></div>
+											<div class="tcb-product-price">
+												&#x20B9; 9550 (40% off)
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-3">
+									<div class="tcb-product-item">
+										<div class="tcb-product-photo">
+											<a href="#"><img src="images/aa1.png" class="img-responsive" alt="a" /></a>
+										</div>
+										<div class="tcb-product-info">
+											<div class="tcb-product-title">
+												<h4><a href="#">Avani Pure Gold Earrings</a></h4></div>
+											<!-- <div class="tcb-product-rating">
+												<i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i>
+												<a href="#">(5 ratings)</a>
+											</div> -->
+											<div class="tcb-hline"></div>
+											<div class="tcb-product-price">
+												&#x20B9; 15600
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-3">
+									<div class="tcb-product-item">
+										<div class="tcb-product-photo">
+											<a href="#"><img src="images/d6.png" class="img-responsive" alt="a" /></a>
+										</div>
+										<div class="tcb-product-info">
+											<div class="tcb-product-title">
+												<h4><a href="#">Intricate Diamond Set</a></h4></div>
+											<!-- <div class="tcb-product-rating">
+												<i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i>
+												<a href="#">(215 ratings)</a>
+											</div> -->
+											<div class="tcb-hline"></div>
+											<div class="tcb-product-price">
+												&#x20B9; 20200 (15% off)
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-3">
+									<div class="tcb-product-item">
+										<div class="tcb-product-photo">
+											<a href="#"><img src="images/akh.png" class="img-responsive" alt="a" /></a>
+										</div>
+										<div class="tcb-product-info">
+											<div class="tcb-product-title">
+												<h4><a href="#">Akhila Mangalsutra Bracelet</a></h4></div>
+											<!-- <div class="tcb-product-rating">
+												<i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i>
+												<a href="#">(10,345 ratings)</a>
+											</div> -->
+											<div class="tcb-hline"></div>
+											<div class="tcb-product-price">
+												&#x20B9; 11,999 (37% off)
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="row">
+								<div class="col-xs-6 col-sm-3">
+									<div class="tcb-product-item">
+										<div class="tcb-product-photo">
+											<a href="#"><img src="images/aar.png" class="img-responsive" alt="a" /></a>
+										</div>
+										<div class="tcb-product-info">
+											<div class="tcb-product-title">
+												<h4><a href="#">Aarohee Mangalsutra Bracelet</a></h4></div>
+											<!-- <div class="tcb-product-rating">
+												<i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i>
+												<a href="#">(945 ratings)</a>
+											</div> -->
+											<div class="tcb-hline"></div>
+											<div class="tcb-product-price">
+												&#x20B9; 27391 (54% off)
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-3">
+									<div class="tcb-product-item">
+										<div class="tcb-product-photo">
+											<a href="#"><img src="images/ari.png"img-responsive" alt="a" /></a>
+										</div>
+										<div class="tcb-product-info">
+											<div class="tcb-product-title">
+												<h4><a href="#">Ariyah Diamond Earrings by PNG Jewellers</a></h4></div>
+											<!-- <div class="tcb-product-rating">
+												<i class="active glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i>
+												<a href="#">(15 ratings)</a>
+											</div> -->
+											<div class="tcb-hline"></div>
+											<div class="tcb-product-price">
+												&#x20B9; 11020 (11% off)
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-xs-6 col-sm-3">
+									<div class="tcb-product-item">
+										<div class="tcb-product-photo">
+											<a href="#"><img src="images/mah.png" class="img-responsive" alt="a" /></a>
+										</div>
+										<div class="tcb-product-info">
+											<div class="tcb-product-title">
+												<h4><a href="#">Maharani Gold Thushi Bangles - Set of 2 </a></h4></div>
+											<!-- <div class="tcb-product-rating">
+												<i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i>
+												<a href="#">(745 ratings)</a>
+											</div> -->
+											<div class="tcb-hline"></div>
+											<div class="tcb-product-price">
+												&#x20B9; 58915 (63% off)
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-3">
+									<div class="tcb-product-item">
+										<div class="tcb-product-photo">
+											<a href="#"><img src="images/g1.png" class="img-responsive" alt="a" /></a>
+										</div>
+										<div class="tcb-product-info">
+											<div class="tcb-product-title">
+												<h4><a href="#">gold ring </a></h4></div>
+											<!-- <div class="tcb-product-rating">
+												<i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="active glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i>
+												<a href="#">(145 ratings)</a>
+											</div> -->
+											<div class="tcb-hline"></div>
+											<div class="tcb-product-price">
+												&#x20B9; 5001 (29% off)
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	
+	<!-- end of slider-bestseller -->
+
+<!-- wedding special section start -->
+		<div class="container_nopadding">
+			<div class="controlcontent_r">
+			<div class="htmlbucket">
+			<p>
+			</p><div class="wedding-special-section">
+			<h2>Wedding<br>
+			<span>specials</span></h2>
+			<div class="wedding-special-IND">
+			<div class="wedding-special">
+			<div class="item">
+			<p class="img"><a href="//www.pngadgil.com/pages/page-07/pgid-1381081.aspx"><img border="0" src="images/wed.png"></a></p>
+			<h3>Beautiful<br>
+			<span>Bride</span></h3>
+			<p>Heart's Heart Ring</p>
+			</div>
+			<div class="item">
+			<p class="img"><a href="//www.pngadgil.com/pages/page-05/pgid-1381077.aspx"><img border="0" src="images/wed2.png"></a></p>
+			<h3>Favourite<br>
+			<span>Guests</span></h3>
+			<p>Gardens Of Paradise Diamond Necklace</p>
+			</div>
+			<div class="item">
+			<p class="img"><a href="//www.pngadgil.com/pages/page-06/pgid-1381079.aspx"><img border="0" src="images/wed3.png"></a></p>
+			<h3>Dashing<br>
+			<span>Groom</span></h3>
+			<p>Princess Diamond Tanmaniya</p>
+			</div>
+			</div>
+			</div>
+			<div class="wedding-special-USA" style="display:none;">
+			<div class="wedding-special">
+			<div class="item">
+			<p class="img"><a href="//www.pngadgil.com/pages/page-07/pgid-1381081.aspx"><img border="0" src="//storage.sg.content-cdn.io/in-resources/d7048855-742a-406c-a67d-5c2962e69e5e/Images/userimages/Wedding-Specials_Beautiful_Bride_USAnew.jpg"></a></p>
+			<h3>Beautiful<br>
+			<span>Bride</span></h3>
+			<p>Heart's Heart Ring</p>
+			</div>
+			<div class="item">
+			<p class="img"><a href="//www.pngadgil.com/pages/page-05/pgid-1381077.aspx"><img border="0" src="//storage.sg.content-cdn.io/in-resources/d7048855-742a-406c-a67d-5c2962e69e5e/Images/userimages/Wedding-Specials_Favourite_Guests_USA.jpg"></a></p>
+			<h3>Favourite<br>
+			<span>Guests</span></h3>
+			<p>Gardens Of Paradise Diamond Necklace</p>
+			</div>
+			<div class="item">
+			<p class="img"><a href="//www.pngadgil.com/pages/page-06/pgid-1381079.aspx"><img border="0" src="//storage.sg.content-cdn.io/in-resources/d7048855-742a-406c-a67d-5c2962e69e5e/Images/userimages/Wedding-Specials_Dashing_Groom_USAnew.jpg"></a></p>
+			<h3>Dashing<br>
+			<span>Groom</span></h3>
+			<p>Princess Diamond Tanmaniya</p>
+			</div>
+			</div>
+			</div>
+			</div>
+			<p></p>
+			</div>
+			</div>
+			<div class="r_bottom">
+			<div class="l_bottom">
+			</div>
+			</div>
+			</div>
+			<!-- /* wedding special section start */ -->
+
+			<!-- discover your pick slider start -->
+
+			<div class="Container">
+					
+				<h2 class="Head">Discover Your pick <span class="Arrows"></span></h2>
+				<!-- Carousel Container -->
+				<div class="SlickCarousel">
+				  <!-- Item -->
+				  <div class="ProductBlock">
+					<div class="Content">
+					  <div class="img-fill">
+						<img src="images/dis1.png">
+					  </div>
+					  <h3>Diamond Earrings</h3>
+					</div>
+				  </div>
+				  <!-- Item -->
+				  <!-- Item -->
+				  <div class="ProductBlock">
+					<div class="Content">
+					  <div class="img-fill">
+						<img src="images/dis2.png">
+					  </div>
+					  <h3>diamond Rings</h3>
+					</div>
+				  </div>
+				  <!-- Item -->
+				  <!-- Item -->
+				  <div class="ProductBlock">
+					<div class="Content">
+					  <div class="img-fill">
+						<img src="images/dis3.png">
+					  </div>
+					  <h3>Mangalsutras & Bracelets</h3>
+					</div>
+				  </div>
+				  <!-- Item -->
+				  <!-- Item -->
+				  <div class="ProductBlock">
+					<div class="Content">
+					  <div class="img-fill">
+						<img src="images/dis4.png">
+					  </div>
+					  <h3>diamond Necklace</h3>
+					</div>
+				  </div>
+				  <!-- Item -->
+				  <!-- Item -->
+				  <div class="ProductBlock">
+					<div class="Content">
+					  <div class="img-fill">
+						<img src="images/dis5.png">
+					  </div>
+					  <h3>diamond Mangalsutras Pendants</h3>
+					</div>
+				  </div>
+				  <!-- Item -->
+				</div>
+				<!-- Carousel Container -->
+			  </div>
+			  <!--End discover your pick slider start -->
+
+			  <!-- start new-in -->
+
+			  <div class="new-in">
+			  <div class="container text-center my-3  " >
+				<h3>new in</h3>
+				<div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+					<div class="carousel-inner w-100 down" role="listbox">
+						<div class="carousel-item row no-gutters active">
+							<div class="col-3 float-left"><img class="img-fluid" src="images/new1.png"></div>
+							<div class="col-3 float-left"><img class="img-fluid" src="images/new2.png"></div>
+							<div class="col-3 float-left"><img class="img-fluid" src="images/new3.png"></div>
+							<div class="col-3 float-left"><img class="img-fluid" src="images/new4.png"></div>
+						</div>
+						<div class="carousel-item row no-gutters">
+							<div class="col-3 float-left"><img class="img-fluid" src="images/new5.png"></div>
+							<div class="col-3 float-left"><img class="img-fluid" src="images/new6.png"></div>
+							<div class="col-3 float-left"><img class="img-fluid" src="images/new7.png"></div>
+							<div class="col-3 float-left"><img class="img-fluid" src="images/new8.png"></div>
+						</div>
+					</div>
+					<a class="carousel-control-prev " href="#recipeCarousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon bg-danger" aria-hidden="true"></span>
+						<span class="sr-only bg-danger">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon bg-danger" aria-hidden="true"></span>
+						<span class="sr-only bg-danger">Next</span>
+					</a>
+				</div>
+				
+			</div>
+			
+			</div>
+  <!-- end new-in -->
+
+<!-- start testimonial section -->
+			  <div class="demo">
+				<div class="container">
+					<div class="row text-center">
+						<h2 class="white"> Testimonial Style </h2>
+					</div>
+		
+					<div class="row">
+						<div class="col-md-12">
+							<div id="testimonial-slider" class="owl-carousel">
+								<div class="testimonial">
+									<div class="pic">
+										<img src="images/t1.png" alt="" width="400"/>
+									</div>
+									<div class="testimonial-content">
+										<small class="post">Team PNG Jewellers,</small>
+										<p class="description">
+											Can't thank you enough for the prompt response and arrangements you did to get me the mangalsutra at perfect time.
+It's beyond appreciation and professionalism..I felt like a friend or family member doing it for me.
+Thank you so much..
+And yes...the mangalsutra is much much pretty and beautiful than what I was expecting!!
+										</p>
+										<h3 class="testimonial-title">Swati
+											
+										</h3>
+									</div>
+								</div>
+		
+								<div class="testimonial">
+									<div class="pic">
+										<img src="images/t2.png" alt=""/>
+									</div>
+									<div class="testimonial-content">
+										<small class="post">Team PNG Jewellers,</small>
+										<p class="description">
+											I just wanted to thank you for your exceptional service and communication.
+My family in Pune has received the pendant and they have advised me how beautiful it is.
+My family always purchases jewellery from PNG Kothrud. But since I live in Australia I wanted to buy something and i chose your online store as I have always had very good experience at Kothrud.
+Thank you once again for your exceptional service. I look forward to use the online store in future.
+
+										</p>
+										<h3 class="testimonial-title">Soumil
+											
+										</h3>
+									</div>
+								</div>
+
+								<div class="testimonial">
+									<div class="pic">
+										<img src="images/t4.png" alt=""/>
+									</div>
+									<div class="testimonial-content">
+										<small class="post">Team PNG Jewellers,</small>
+										<p class="description">
+											Thanks a lot for the details and for the quick turnaround time for my request.
+The order was delivered before time.
+Really appreciate it.
+
+										</p>
+										<h3 class="testimonial-title">Monica
+											
+										</h3>
+									</div>
+								</div>
+		
+								<div class="testimonial">
+									<div class="pic">
+										<img src="images/t5.png" alt=""/>
+									</div>
+									<div class="testimonial-content">
+										<small class="post">Team PNG Jewellers,</small>
+										<p class="description">
+											I received the delivery of my order so promptly. Thanks a lot for your help in making the payment. The necklace is absolutely stunning and of great quality. My best wishes to M/s. P N Gadgil Pvt. Ltd.
+
+										</p>
+										<h3 class="testimonial-title">Sayeeda
+											
+										</h3>
+									</div>
+								</div>
+		
+
+								<div class="testimonial">
+									<div class="pic">
+										<img src="images/t3.png" alt=""/>
+									</div>
+									<div class="testimonial-content">
+										<small class="post">Team PNG Jewellers,</small>
+										<p class="description">
+											Thank you so much for delivering my Rakhi on time as promised
+I'm so happy with the service also we loved the make and finish of the Rakhi
+Eagerly waiting to shop more from you guys
+Quick response and follow up
+Thanks for the wonderful customer support
+										</p>
+										<h3 class="testimonial-title">Diana
+											
+										</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!--end start testimonial section -->
+
+			
+        <!-- start shop by price -->
+			<div class="demosshopbypricehome">
+				<section id="demos-shopbyprice">
+				<h2>Shop by Price</h2>
+				<div class="homeshopbyprice-IND">
+			
+							<div class="item">
+				<h6>
+					<a href="">Under 10K </a>
+				</h6>
+				</div>
+				<div class="item">
+					<h6>
+						<a href="">Under 20K</a>
+					</h6>
+					</div>
+					<div class="item">
+						<h6>
+							<a href="">Under 30K</a>
+						</h6>
+						</div>
+						<div class="item">
+							<h6>
+								<a href="">Above 30K </a>
+							</h6>
+							</div>
+				
+				</div>
+				</section>
+				</div>
+			<!-- end shop by price -->
+
+
+			
+<!-- from the blog start -->
+				 <!-- create a bootstrap card in a container-->
+				 <div class="containerr">
+					<div id="demos-blog">
+						<h3>from the blog</h3>
+						<div class="col-12 d-inline-flex w-100 siii">
+							
+					<!--Bootstrap card with slider class-->
+					
+					<div id="carousel-demo" 
+						 class="carousel slide" 
+						 data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="item">
+								<img src=
+			"images/b1.png">
+			<h4>NAVRATRI BLOG</h4>
+							</div>
+							<div class="item">
+								
+								<img src=
+			"images/b2.png">
+			<h4>TOP 10 RAKHI GIFTS THAT’LL MAKE HER DAY</h4>
+							</div>
+							<div class="item">
+								
+								<img src=
+			"images/b4.png">
+			<h4>Akshaya Tritiya – Fortune Favors the Gold</h4>
+							</div>
+							<div class="item">
+								
+								<img src=
+			"images/b5.png">
+			<h4>Exciting couple jewellery for the bride and groom</h4>
+							</div>
+							<div class="item active">
+								<img src=
+			"images/b3.png">
+			<h4>How about rose gold jewellery instead of a rose, this Valentine’s Day!</h4>
+							</div>
+						</div>
+						<!--slider control for card-->
+						<a class="left carousel-control"
+						   href="#carousel-demo"
+						   data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left">
+						  </span>
+						</a>
+						<a class="right carousel-control" 
+						   href="#carousel-demo" 
+						   data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right">
+						  </span>
+						</a>
+					</div>
+					<div class="instagrmhome">
+						<p class="instahead-home"><a href="https://www.instagram.com/pngjewellers/" target="_blank"><img border="0" src="images/fortheblog.png"></a></p>
+						</div>
+				</div>
+			</div>
+
+		<!-- for the blog end -->
+
+<!-- start of legacy -->
+		<div class="legacy-home">
+			<div class="leg-left"><img border="0" src="images/lega.png"></div>
+			<div class="leg-right"><span>icon</span>
+			<h3>Legacy</h3>
+			<p>PNG is more than jewellery… it embodies family values, based on trust &amp; understanding. Our lineage is committed to learning and progressing. We thank our customers, fellow jewellers and hope to grow, while staying true to our roots.</p>
+			<p><a href="//www.pngadgil.com/pages/about-us/pgid-1264800.aspx">Know More</a></p>
+			</div>
+			<p style="clear:both"></p>
+			</div>
+<!-- end of legacy -->
+
+<div class="r_bottom">
+	<div class="l_bottom">
+	</div>
+	</div>
+<!-- customise-home start -->
+	<div class="container_nopadding">
+		<div class="controlcontent_r">
+		<div class="htmlbucket">
+		<p>
+		</p><div class="customise-home d-inline-flex">
+		<div class="customise-left "><img border="0" src="images/lega2.png"></div>
+		<div class="customise-right ">
+		<h2>Build your own jewellery with our designers</h2>
+		<p>if you want to customize your jewellery, share your jewellery design and idea of customizing it.</p>
+		<p><a href="">Enquire now</a></p>
+		</div>
+		</div>
+		<p></p>
+		</div>
+		</div>
+		<div class="r_bottom">
+		<div class="l_bottom">
+		</div>
+		</div>
+		</div>
+		<!-- customise-home end -->
+
+<!-- whyshop start -->
+		<div class="container_nopadding">
+			<div class="controlcontent_r">
+			<div class="htmlbucket">
+			<p>
+			</p><div class="whyshop">
+			<h2>THE PNG PROMISE</h2>
+			<div class="whyshop-section-IND">
+			<div class="whyshop-section">
+			<p><img border="0" src="images/thepromise1.png"></p>
+			<p><img border="0" src="images/thepromise2.png"></p>
+			<p><img border="0" src="images/thepromise3.png"></p>
+			</div>
+			<div class="whyshop-section">
+			<p><img border="0" src="images/thepromise4.png"></p>
+			<p><img border="0" src="images/thepromise5.png"></p>
+			<p><img border="0" src="images/thepromise6.png"></p>
+			</div>
+			</div>
+			<div class="whyshop-section-USA" style="display:none;">
+			<div class="whyshop-section">
+			<p><img border="0" src="//storage.sg.content-cdn.io/in-resources/d7048855-742a-406c-a67d-5c2962e69e5e/Images/userimages/whyshopwithpng_USA1.jpg"></p>
+			<p><img border="0" src="//storage.sg.content-cdn.io/in-resources/d7048855-742a-406c-a67d-5c2962e69e5e/Images/userimages/whyshopwithpng_USA2.jpg"></p>
+			<p><img border="0" src="//storage.sg.content-cdn.io/in-resources/d7048855-742a-406c-a67d-5c2962e69e5e/Images/userimages/whyshopwithpng_USA3.jpg"></p>
+			</div>
+			<div class="whyshop-section">
+			<p><img border="0" src="//storage.sg.content-cdn.io/in-resources/d7048855-742a-406c-a67d-5c2962e69e5e/Images/userimages/whyshopwithpng_USA4.jpg"></p>
+			<p><img border="0" src="//storage.sg.content-cdn.io/in-resources/d7048855-742a-406c-a67d-5c2962e69e5e/Images/userimages/whyshopwithpng_USA5.jpg"></p>
+			<p><img border="0" src="//storage.sg.content-cdn.io/in-resources/d7048855-742a-406c-a67d-5c2962e69e5e/Images/userimages/whyshopwithpng_USA6.jpg"></p>
+			</div>
+			</div>
+			</div>
+			<p></p>
+			</div>
+			</div>
+			<div class="r_bottom">
+			<div class="l_bottom">
+			</div>
+			</div>
+			</div>
+<!-- whyshop end  -->
+<!-- letus -->
+<div class="controlcontent_r">
+	<div class="htmlbucket">
+	<p>
+	</p><div class="letus">
+	<h2>GET IN TOUCH WITH US</h2>
+	<div class="letus-section">
+	<p><a href="mailto:customerservice@pngadgil.com" target="_blank">customerservice@pngadgil.com</a></p>
+	<p><span class="letussec-ind"><a href="https://web.whatsapp.com/send?phone=+918806907567?text=Hey%20I%27m%20interested%20in%20your%20products" style="background:none;" target="_blank">+91 8806907567</a></span><span class="letussec-usd"></span></p>
+	</div>
+	</div>
+	<p></p>
+	</div>
+	</div>
+	<!-- letus -->
+<!-- news letter -->
+	<div class="container3">
+		<div class="subheading_r">
+		<h2>
+		News letter
+		</h2>
+		</div>
+		<div class="controlcontent_r">
+		<div class="newssignupbucket">
+		<div style="font-size: x-small">
+		<span id="ctl00_ContentPlaceHolder1_ctl00_ctl13_lblMsg"></span>
+		</div>
+		<div style="color: Red; font-size: x-small">
+		<span id="ctl00_ContentPlaceHolder1_ctl00_ctl13_regtxtEmail" style="color:Red;display:none;"></span>
+		</div>
+		<div style="font-size: 9px; color: Red;" id="divMsg">
+		</div>
+		<!-- <p>
+		Subscribe now and get latest offers,
+		news &amp; promotions
+		</p> -->
+		<input type="hidden" name="ctl00$ContentPlaceHolder1$ctl00$ctl13$hndText" id="ctl00_ContentPlaceHolder1_ctl00_ctl13_hndText" value="Enter Your Email Address">
+		<input name="ctl00$ContentPlaceHolder1$ctl00$ctl13$txtEmail" type="text" value="Enter Your Email Address" id="ctl00_ContentPlaceHolder1_ctl00_ctl13_txtEmail" class="subscribemailtxt" onblur="MailingList.ResetValue1(this);" onclick="MailingList.ResetLocalValue1(this);">
+		<ul id="ctl00_ContentPlaceHolder1_ctl00_ctl13_chkMailingList"> </ul>
+		<input name="ctl00$ContentPlaceHolder1$ctl00$ctl13$hdnchkmail" type="hidden" id="ctl00_ContentPlaceHolder1_ctl00_ctl13_hdnchkmail" value="8808">
+		<div class="subscribebutton">
+		<div class="navbtn">
+		<span class="navbtn_l"></span><span class="navbtn_m">
+		<input name="ctl00$ContentPlaceHolder1$ctl00$ctl13$btnMailSearch" type="button" id="ctl00_ContentPlaceHolder1_ctl00_ctl13_btnMailSearch" class="mj_btnbg" onclick="javascript: return MailingList.SaveSubscribe();" value="Subscribe">
+		</span><span class="navbtn_r"></span>
+		</div>
+		</div>
+		</div>
+		</div>
+		<div class="r_bottom">
+		<div class="l_bottom">
+		</div>
+		</div>
+		</div>
+		<!-- end of news letter -->
+
+<!-- start footer -->
+		<div class="bottombarmiddle_r">
+			<div class="bottombarmiddle_l">
+			<center></center>
+			<div class="storeaddress">
+			<div class="cus_footer_main IND">
+			<div class="cus_footer">
+			<div class="footer_sec">
+			<h4>Know Us</h4>
+			<ul>
+			<li><a href="/pages/about-us/pgid-1264800.aspx">About Us</a></li>
+			<li><a href="/pages/who-we-are/pgid-1264802.aspx">Who we are</a></li>
+			<li><a href="/pages/quality-and-value/pgid-1264804.aspx">Quality and Value</a></li>
+			<li><a href="/pages/png-advantage/pgid-1264806.aspx">PNG Advantage</a></li>
+			<li><a href="/pages/store-locator/pgid-1261084.aspx">PNG Store locator</a></li>
+			<li><a href="/pages/careers/pgid-1314718.aspx">Careers</a></li>
+			<li><a href="https://www.pngadgil.com/blog/blogs" target="_blank">Blog</a></li>
+			</ul>
+			<div class="footer_sec">
+			<h4>Customers Delight</h4>
+			<ul>
+			<li><a href="/pages/faqs/pgid-1264866.aspx">FAQs</a></li>
+			<li><a href="/pages/payment-options/pgid-1268856.aspx">Payment Options</a></li>
+			<li><a href="/TrackOrder.aspx">Order Tracking</a></li>
+			<li><a href="/pages/contactus/pgid-1264906.aspx">Contact Us</a></li>
+			<li><a href="/sitemap.aspx">Site Map</a></li>
+			
+			</ul>
+			</div>
+			</div>
+			<div class="footer_sec">
+			<h4>PNG Promises</h4>
+			<ul>
+			<li><a href="/pages/lifetime-product-service/pgid-1264808.aspx">Lifetime Product Service</a></li>
+			
+			<li><a href="/pages/free-product-insurance/pgid-1264812.aspx">Free Product Insurance</a></li>
+			<li><a href="/pages/certified-jewellery/pgid-1264814.aspx">Certified Jewellery</a></li>
+			
+			</ul>
+			<div class="footer_sec">
+			<h4>Education</h4>
+			<ul>
+			<li><a href="/pages/know-your-diamonds/pgid-1264864.aspx">Know your Diamonds</a></li>
+			<li><a href="/pages/diamond-guide/pgid-1264912.aspx">Diamond Guide</a></li>
+			<li><a href="/pages/gemstone-guide/pgid-1264868.aspx">Gemstone Guide</a></li>
+			<li><a href="/pages/precious-metal-guide/pgid-1264894.aspx">Precious Metal Guide</a></li>
+			<li><a href="/pages/know-your-jewellery/pgid-1264918.aspx">Know your Jewellery</a></li>
+			<li><a href="/pages/ring-size-guide/pgid-1264898.aspx">Ring Size Guide</a></li>
+			<li><a href="/pages/bangle-size-guide/pgid-1264896.aspx">Bangle Size Guide</a></li>
+			</ul>
+			</div>
+			</div>
+			
+			<div class="footer_sec">
+			<h4>PNG Loyalty Program</h4>
+			<ul style="margin-bottom: 30px;">
+			<li><a href="/pages/png-circles-loyalty--rewards--terms--conditions/pgid-1285588.aspx" target="_blank">PNG Circles Loyalty &amp; Rewards: Terms &amp; Conditions</a></li>
+			<li><a href="/pages/png-circles-loyalty-program/pgid-1286340.aspx">PNG Circles</a></li>
+			</ul>
+			<h4>PNG Contests</h4>
+			<ul>
+			<li><a href="//storage.sg.content-cdn.io/in-resources/d7048855-742a-406c-a67d-5c2962e69e5e/Images/userimages/entry_form_english_n.pdf" target="_blank">Dajikaka Karandak Entry Form English</a></li>
+			<li><a href="//storage.sg.content-cdn.io/in-resources/d7048855-742a-406c-a67d-5c2962e69e5e/Images/userimages/entry_form_marathi_n.pdf" target="_blank">Dajikaka Karandak Entry Form Marathi</a></li>
+			</ul>
+			</div>
+			<div class="footer_sec">
+			<h4>Policies</h4>
+			<ul>
+			<li><a href="/pages/exchange-policy/pgid-1260168.aspx">Exchange Policy</a></li>
+			<li><a href="/pages/buybackreturn-policy/pgid-1264908.aspx">Buyback/Return Policy</a></li>
+			<li><a href="/pages/gold-scheme-policy/pgid-1264830.aspx">Gold Scheme Policy</a></li>
+			<li><a href="/pages/shipping-policy/pgid-1260164.aspx">Shipping Policy</a></li>
+			<li><a href="/pages/cancellation-policy/pgid-1260158.aspx">Cancellation Policy</a></li>
+			<li><a href="/pages/disclaimer-policy/pgid-1260160.aspx">Disclaimer Policy</a></li>
+			<li><a href="/pages/privacy-policy/pgid-1260166.aspx">Privacy Policy</a></li>
+			<li><a href="/pages/terms-@amper-conditions/pgid-1260162.aspx">Terms of Use</a></li>
+			<li><a href="//storage.sg.content-cdn.io/in-resources/d7048855-742a-406c-a67d-5c2962e69e5e/Images/userimages/Vigil_Policy.PDF" target="_blank">Vigil Policy</a></li>
+			<li><a href="//storage.sg.content-cdn.io/in-resources/d7048855-742a-406c-a67d-5c2962e69e5e/Images/userimages/CSRPolicy.pdf" target="_blank">CSR Policy</a></li>
+			</ul>
+			</div>
+			<div class="footer_sec">
+			<div class="footer_sec social_footer">
+			<h4>Follow Us</h4>
+			<a class="fb" href="https://www.facebook.com/PNGJewelers" target="_blank">Facebook</a> <a class="tw" href="https://twitter.com/pngjewellers" target="_blank">Twitter</a> <a class="pin" href="https://in.pinterest.com/pngjewellersindia" target="_blank">pinterest</a> <a class="yt" href="https://www.youtube.com/user/PNGGadgilJewellers" target="_blank">Youtube</a> <a class="inst" href="https://www.instagram.com/pngjewellers/" onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;">instagram</a> <a class="gp" href="https://plus.google.com/+pngadgil" target="_blank">Google Plus</a></div>
+			<div class="footer_sec social_footer">
+			<h4>We are Certified by</h4>
+			<img src="images/weare.png"></div>
+			</div>
+			</div>
+			</div>
+		
+			<div class="nav_pay">
+			<div class="foot_nav"><a href="/pages/rings/pgid-1264040.aspx">Rings</a> <a href="/SearchResults.aspx?search=Daily%20wear">Daily Wear</a> <a href="/pages/bands-rings/pgid-1263892.aspx">Bands</a> <a href="/pages/engagement-rings/pgid-1263894.aspx">Engagement</a> <a href="/SearchResults.aspx?search=Heart">Hearts</a> <a href="/SearchResults.aspx?search=floral">Floral</a> <a href="/SearchResults.aspx?search=Occasional%20Wear">Occasional Wear</a> <a href="/pages/earrings/pgid-1264050.aspx">Earrings</a> <a href="/pages/studs-earrings/pgid-1263888.aspx">Studs</a> <a href="/pages/drops-and-danglers-earrings/pgid-1263890.aspx">Drops &amp; Danglers</a> <a href="/pages/hoops-and-huggies-earrings/pgid-1263908.aspx">Hoops &amp; Huggies</a> <a href="/pages/jhumkas-earrings/pgid-1264024.aspx">Jhumkas</a> <a href="/pages/ear-cuffs-and-jackets-earrings/pgid-1267006.aspx">Ear Cuffs &amp; Jackets</a> <a href="/pages/chand-bali-earrings/pgid-1264026.aspx">Chand Bali</a> <a href="/SearchResults.aspx?search=Zodiac">Zodiac</a> <a href="/pages/mangalsutras/pgid-1264052.aspx">Mangalsutras</a> <a href="/pages/tanmaniya-mangalsutras/pgid-1263906.aspx#">Tanmaniya Mangalsutra</a> <a href="/pages/fusion-mangalsutras/pgid-1263910.aspx">Fusion Mangalsutra</a> <a href="/pages/mangalsutra-chain/pgid-1264014.aspx">Mangalsutra Chain</a> <a href="/pages/watimani-mangalsutras/pgid-1264016.aspx">Watimani Mangalsutra</a> <a href="/pages/mangalsutras/pgid-1264052.aspx">South Exclusive</a> <a href="/pages/pendants--sets/pgid-1264054.aspx">Pendants &amp; Sets</a> <a href="/pages/pendant-sets/pgid-1264022.aspx">Pendant Sets</a> <a href="/pages/initials-pendants-and-sets/pgid-1267010.aspx">Initials</a> <a href="/pages/geometric-pendants-and-sets/pgid-1264034.aspx">Geometric</a> <a href="/pages/religious-pendants-and-sets/pgid-1264038.aspx">Religious</a> <a href="/pages/pendants--sets/pgid-1264054.aspx">Kids</a> <a href="/pages/bracelets-and-bangles/pgid-1267096.aspx">Bracelets &amp; Bangles</a> <a href="/pages/stiff-bracelet-bracelets-and-bangles/pgid-1267086.aspx">Stiff Bracelet</a> <a href="/pages/bangles-bracelets-and-bangles/pgid-1267088.aspx">Bangles</a> <a href="/pages/mangalsutra-bracelet-bracelets-and-bangles/pgid-1267084.aspx">Mangalsutra Bracelets</a> <a href="/pages/colored-stones/pgid-1267012.aspx">Colored Stones</a> <a href="/categories/gold/cid-CU00351074.aspx">Gold Jewellery</a> <a href="/categories/diamond-jewellery/cid-CU00349474.aspx">Diamond Jewellery</a> <a class="ft-c-usa" href="/categories/silver/cid-CU00352180.aspx">Silver and Gift Articles</a> <a class="ft-c-usa" href="/categories/bullion/cid-CU00351642.aspx">Bullions and Coins</a> <a class="ft-c-usa" href="/pages/collections/pgid-1269312.aspx">Collections</a> <a class="ft-c-usa" href="/pages/gift-cards/pgid-1265382.aspx">Gift Cards</a></div>
+			<div class="payments"><a href="https://www.paypal.com/in/webapps/mpp/paypal-popup" onclick="javascript:window.open('https://www.paypal.com/in/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;" title="How PayPal Works"><img alt="PayPal Logo" border="0" src="images/paypal.png"></a><img height="32px" src="images/visa.png" width="173px"></div>
+			</div>
+			<div class="secure_martjack">
+			<div class="secure"><span>Secured by<br>
+			<img height="45px" src="images/delivery.png" width="243px"></span> <span>Delivery Partners<br>
+			<img src="images/delivery_partners.png"></span></div>
+			<div class="copy_mart">
+			<div class="copy">© Copyright 2016 - P N Gadgil Jewellers Pvt Ltd.<br>
+			All Rights Reserved.</div>
+			<div class="martjacklogo"></div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+<!-- end of fooeter -->
+
+		
+        <!-- all js here -->
+		<!-- jquery latest version -->
+        <script src="js/vendor/jquery-1.12.0.min.js"></script>
+		<!-- bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+		<!-- owl.carousel js -->
+        <script src="js/owl.carousel.min.js"></script>
+		<!-- meanmenu js -->
+        <script src="js/jquery.meanmenu.js"></script>
+		<!-- jquery-ui js -->
+        <script src="js/jquery-ui.min.js"></script>
+		<!-- wow js -->
+        <script src="js/wow.min.js"></script>
+		<!-- scrolly js -->
+        <script src="js/jquery.scrolly.js"></script>		
+		<!-- magnific-popup js -->
+        <script src="js/jquery.magnific-popup.min.js"></script>	
+		<!--  countdown js -->
+        <script src="js/jquery.countdown.min.js"></script>	
+		<!-- nivo.slider js -->
+        <script src="js/jquery.nivo.slider.js"></script>			
+		<!-- plugins js -->
+        <script src="js/plugins.js"></script>
+		<!-- main js -->
+        <script src="js/main.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+		 <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <!-- JavaScript Bundle with Popper.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
